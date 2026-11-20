@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated outputs
+data/
+Dataset/
+Query Files/
+Policy Documents/
+submission.csv
+submission_partial.csv
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
