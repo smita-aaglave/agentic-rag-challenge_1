@@ -1,20 +1,20 @@
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Environment variables and API secrets
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Local data and generated outputs
-data/
-Dataset/
-Query Files/
-Policy Documents/
+# Generated outputs
 submission.csv
 submission_partial.csv
 *.db
